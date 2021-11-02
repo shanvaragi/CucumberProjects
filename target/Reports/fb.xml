@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="125.900887">
+<testcase classname="To validate login functionality of facebook" name="Validate with invalid username and invalid password Using  2 map Dimensioanl DataTable" time="28.582436">
+<system-out><![CDATA[Given The user should launch the chrome browser.............................passed
+When The user should type the url...........................................passed
+And The user should maxmize the window......................................passed
+And The user should type the invalid username and invalid passwords.........passed
+And The user should click the login button..................................passed
+And The user should get the title of the incorrect credential page..........passed
+Then The user should naviage to incorrect credential page...................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate login functionality of facebook" name="Validate with invalid username and invalid password" time="22.520521">
+<system-out><![CDATA[Given The user should launch the chrome browser.............................passed
+When The user should type the url...........................................passed
+And The user should maxmize the window......................................passed
+And The user should type the invalid username"shan" and invalid password"raja@123".passed
+And The user should click the login button..................................passed
+And The user should get the title of the incorrect credential page..........passed
+Then The user should naviage to incorrect credential page...................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate login functionality of facebook" name="Validate with invalid username and invalid password 2" time="21.426433">
+<system-out><![CDATA[Given The user should launch the chrome browser.............................passed
+When The user should type the url...........................................passed
+And The user should maxmize the window......................................passed
+And The user should type the invalid username"varagi" and invalid password"varagi@123".passed
+And The user should click the login button..................................passed
+And The user should get the title of the incorrect credential page..........passed
+Then The user should naviage to incorrect credential page...................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate login functionality of facebook" name="Validate with invalid username and invalid password 3" time="34.346817">
+<system-out><![CDATA[Given The user should launch the chrome browser.............................passed
+When The user should type the url...........................................passed
+And The user should maxmize the window......................................passed
+And The user should type the invalid username"sai" and invalid password"sai@123".passed
+And The user should click the login button..................................passed
+And The user should get the title of the incorrect credential page..........passed
+Then The user should naviage to incorrect credential page...................passed
+]]></system-out>
+</testcase>
+<testcase classname="To validate forgot password feature in the facebookpage" name="Verify the forgot password functionality" time="19.02468">
+<system-out><![CDATA[Given The user should launch the chrome browsers............................passed
+When The user should type the Url...........................................passed
+And The user should maxmize the Window......................................passed
+And The user should click the forgot password link..........................passed
+And The user should nagvigate to find your account page.....................passed
+And The user should type the registered mobile number or email id...........passed
+And The user should click the search button.................................passed
+Then The user should nagvigate to reset your password page..................passed
+]]></system-out>
+</testcase>
+</testsuite>
